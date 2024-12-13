@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		E1CE9E0B2D06A9C500BA73A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1CE9DF22D06A9C300BA73A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1CE9DF92D06A9C300BA73A5;
+			remoteInfo = MobileInventorySystem;
+		};
+		E1CE9E152D06A9C500BA73A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1CE9DF22D06A9C300BA73A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1CE9DF92D06A9C300BA73A5;
+			remoteInfo = MobileInventorySystem;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E1CE9DFA2D06A9C300BA73A5 /* MobileInventorySystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileInventorySystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1CE9E0A2D06A9C500BA73A5 /* MobileInventorySystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileInventorySystemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1CE9E142D06A9C500BA73A5 /* MobileInventorySystemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileInventorySystemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E1CE9DFC2D06A9C300BA73A5 /* MobileInventorySystem */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MobileInventorySystem;
+			sourceTree = "<group>";
+		};
+		E1CE9E0D2D06A9C500BA73A5 /* MobileInventorySystemTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MobileInventorySystemTests;
+			sourceTree = "<group>";
+		};
+		E1CE9E172D06A9C500BA73A5 /* MobileInventorySystemUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MobileInventorySystemUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1CE9DF72D06A9C300BA73A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1CE9E072D06A9C500BA73A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1CE9E112D06A9C500BA73A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1CE9DF12D06A9C300BA73A5 = {
+			isa = PBXGroup;
+			children = (
+				E1CE9DFC2D06A9C300BA73A5 /* MobileInventorySystem */,
+				E1CE9E0D2D06A9C500BA73A5 /* MobileInventorySystemTests */,
+				E1CE9E172D06A9C500BA73A5 /* MobileInventorySystemUITests */,
+				E1CE9DFB2D06A9C300BA73A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1CE9DFB2D06A9C300BA73A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1CE9DFA2D06A9C300BA73A5 /* MobileInventorySystem.app */,
+				E1CE9E0A2D06A9C500BA73A5 /* MobileInventorySystemTests.xctest */,
+				E1CE9E142D06A9C500BA73A5 /* MobileInventorySystemUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1CE9DF92D06A9C300BA73A5 /* MobileInventorySystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1CE9E1E2D06A9C500BA73A5 /* Build configuration list for PBXNativeTarget "MobileInventorySystem" */;
+			buildPhases = (
+				E1CE9DF62D06A9C300BA73A5 /* Sources */,
+				E1CE9DF72D06A9C300BA73A5 /* Frameworks */,
+				E1CE9DF82D06A9C300BA73A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E1CE9DFC2D06A9C300BA73A5 /* MobileInventorySystem */,
+			);
+			name = MobileInventorySystem;
+			packageProductDependencies = (
+			);
+			productName = MobileInventorySystem;
+			productReference = E1CE9DFA2D06A9C300BA73A5 /* MobileInventorySystem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1CE9E092D06A9C500BA73A5 /* MobileInventorySystemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1CE9E212D06A9C500BA73A5 /* Build configuration list for PBXNativeTarget "MobileInventorySystemTests" */;
+			buildPhases = (
+				E1CE9E062D06A9C500BA73A5 /* Sources */,
+				E1CE9E072D06A9C500BA73A5 /* Frameworks */,
+				E1CE9E082D06A9C500BA73A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1CE9E0C2D06A9C500BA73A5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E1CE9E0D2D06A9C500BA73A5 /* MobileInventorySystemTests */,
+			);
+			name = MobileInventorySystemTests;
+			packageProductDependencies = (
+			);
+			productName = MobileInventorySystemTests;
+			productReference = E1CE9E0A2D06A9C500BA73A5 /* MobileInventorySystemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E1CE9E132D06A9C500BA73A5 /* MobileInventorySystemUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1CE9E242D06A9C500BA73A5 /* Build configuration list for PBXNativeTarget "MobileInventorySystemUITests" */;
+			buildPhases = (
+				E1CE9E102D06A9C500BA73A5 /* Sources */,
+				E1CE9E112D06A9C500BA73A5 /* Frameworks */,
+				E1CE9E122D06A9C500BA73A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1CE9E162D06A9C500BA73A5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E1CE9E172D06A9C500BA73A5 /* MobileInventorySystemUITests */,
+			);
+			name = MobileInventorySystemUITests;
+			packageProductDependencies = (
+			);
+			productName = MobileInventorySystemUITests;
+			productReference = E1CE9E142D06A9C500BA73A5 /* MobileInventorySystemUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1CE9DF22D06A9C300BA73A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					E1CE9DF92D06A9C300BA73A5 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					E1CE9E092D06A9C500BA73A5 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = E1CE9DF92D06A9C300BA73A5;
+					};
+					E1CE9E132D06A9C500BA73A5 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = E1CE9DF92D06A9C300BA73A5;
+					};
+				};
+			};
+			buildConfigurationList = E1CE9DF52D06A9C300BA73A5 /* Build configuration list for PBXProject "MobileInventorySystem" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1CE9DF12D06A9C300BA73A5;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E1CE9DFB2D06A9C300BA73A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1CE9DF92D06A9C300BA73A5 /* MobileInventorySystem */,
+				E1CE9E092D06A9C500BA73A5 /* MobileInventorySystemTests */,
+				E1CE9E132D06A9C500BA73A5 /* MobileInventorySystemUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1CE9DF82D06A9C300BA73A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1CE9E082D06A9C500BA73A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1CE9E122D06A9C500BA73A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1CE9DF62D06A9C300BA73A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1CE9E062D06A9C500BA73A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1CE9E102D06A9C500BA73A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1CE9E0C2D06A9C500BA73A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1CE9DF92D06A9C300BA73A5 /* MobileInventorySystem */;
+			targetProxy = E1CE9E0B2D06A9C500BA73A5 /* PBXContainerItemProxy */;
+		};
+		E1CE9E162D06A9C500BA73A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1CE9DF92D06A9C300BA73A5 /* MobileInventorySystem */;
+			targetProxy = E1CE9E152D06A9C500BA73A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E1CE9E1C2D06A9C500BA73A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1CE9E1D2D06A9C500BA73A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1CE9E1F2D06A9C500BA73A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MobileInventorySystem/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tono.MobileInventorySystem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1CE9E202D06A9C500BA73A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MobileInventorySystem/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tono.MobileInventorySystem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E1CE9E222D06A9C500BA73A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tono.MobileInventorySystemTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobileInventorySystem.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MobileInventorySystem";
+			};
+			name = Debug;
+		};
+		E1CE9E232D06A9C500BA73A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tono.MobileInventorySystemTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobileInventorySystem.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MobileInventorySystem";
+			};
+			name = Release;
+		};
+		E1CE9E252D06A9C500BA73A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tono.MobileInventorySystemUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MobileInventorySystem;
+			};
+			name = Debug;
+		};
+		E1CE9E262D06A9C500BA73A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tono.MobileInventorySystemUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MobileInventorySystem;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1CE9DF52D06A9C300BA73A5 /* Build configuration list for PBXProject "MobileInventorySystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1CE9E1C2D06A9C500BA73A5 /* Debug */,
+				E1CE9E1D2D06A9C500BA73A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1CE9E1E2D06A9C500BA73A5 /* Build configuration list for PBXNativeTarget "MobileInventorySystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1CE9E1F2D06A9C500BA73A5 /* Debug */,
+				E1CE9E202D06A9C500BA73A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1CE9E212D06A9C500BA73A5 /* Build configuration list for PBXNativeTarget "MobileInventorySystemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1CE9E222D06A9C500BA73A5 /* Debug */,
+				E1CE9E232D06A9C500BA73A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1CE9E242D06A9C500BA73A5 /* Build configuration list for PBXNativeTarget "MobileInventorySystemUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1CE9E252D06A9C500BA73A5 /* Debug */,
+				E1CE9E262D06A9C500BA73A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1CE9DF22D06A9C300BA73A5 /* Project object */;
+}
